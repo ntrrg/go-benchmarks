@@ -1,0 +1,16 @@
+syntax = "proto3";
+package main;
+
+message UserProtobuf {
+  string id        = 1;
+  string mode      = 2;
+  int64  createdAt = 3;
+  int64  lastLogin = 4;
+
+  map<string,string> data = 5;
+
+  string email         = 6;
+  bool   emailVerified = 7;
+  string phone         = 8;
+  bool   phoneVerified = 9;
+}
