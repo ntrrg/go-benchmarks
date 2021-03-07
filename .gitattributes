@@ -1,0 +1,3 @@
+*.pb.go binary
+**/*/vendor/* binary
+

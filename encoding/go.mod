@@ -1,9 +1,10 @@
 module gotest
 
-go 1.12
+go 1.16
 
 require (
-	github.com/gogo/protobuf v1.2.1
-	github.com/golang/protobuf v1.3.1
+	github.com/golang/protobuf v1.4.3
+	github.com/json-iterator/go v1.1.10
 	github.com/niubaoshu/gotiny v0.0.3
+	google.golang.org/protobuf v1.25.0
 )
